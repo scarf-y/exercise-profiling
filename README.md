@@ -1,3 +1,98 @@
+<details>
+   <summary> JMeter Test Result from GUI MODE </summary>
+
+   ## Test Plan 1 in GUI
+
+   ![test plan 1 gui 1](images/test-plan-1-GUI-r1.png)
+   ![test plan 1 gui 2](images/test-plan-1-GUI-r2.png)
+   ![test plan 1 gui 3](images/test-plan-1-GUI-r3.png)
+   ![test plan 1 gui 4](images/test-plan-1-GUI-r4.png)
+
+   ## Test Plan 2 in GUI
+
+   ![test plan 2 gui 1](images/test-plan-2-GUI-r1.png)
+   ![test plan 2 gui 2](images/test-plan-2-GUI-r2.png)
+   ![test plan 2 gui 3](images/test-plan-2-GUI-r3.png)
+   ![test plan 2 gui 4](images/test-plan-2-GUI-r4.png)
+
+   ## Test Plan 3 in GUI
+
+   ![test plan 3 gui 1](images/test-plan-3-GUI-r1.png)
+   ![test plan 3 gui 2](images/test-plan-3-GUI-r2.png)
+   ![test plan 3 gui 3](images/test-plan-3-GUI-r3.png)
+   ![test plan 3 gui 4](images/test-plan-3-GUI-r4.png)
+   
+</details>
+
+
+<details>
+   <summary> JMeter Test Result from CLI Mode </summary>
+
+   ![test plan 1 cli](images/testresults1.png)
+   ![test plan 2 cli](images/testresults2.png)
+   ![test plan 3 cli](images/testresults3.png)
+   
+</details>
+
+
+<details>
+   <summary> Proof for Reaching 20% Performance Increase </summary>
+
+   ### First Endpoint
+
+   before
+   
+   ![profiling1](images/time1.png)
+
+   after
+   
+   ![profiling1op](images/time1optimized.png)
+
+   ### Second Endpoint
+
+   before
+   
+   ![profiling2](images/time2.png)
+
+   after
+   
+   ![profiling2op](images/time2optimized.png)
+
+   ### Third Endpoint
+
+   before
+   
+   ![profiling3](images/time3.png)
+
+   after
+   
+   ![profiling3op](images/time3optimized.png)
+   
+</details>
+
+
+<details>
+   <summary> JMeter Result after Optimizing + The Conclusion </summary>
+
+   ![test plan 1 cli_op](images/testresults1_optimized.png)
+   ![test plan 2 cli_op](images/testresults2_optimized.png)
+   ![test plan 3 cli_op](images/testresults3_optimized.png)
+
+
+   ### Conclusion
+
+After performing profiling and optimizing the application, I ran another performance test using JMeter. The results showed a significant improvement compared to the initial measurement:
+   1. Elapsed Time: Decreased significantly, meaning requests are processed much faster.
+   2. Latency: Also reduced, indicating that responses are being sent more quickly.
+   3. These improvements suggest that the optimizations effectively removed bottlenecks and improved the overall efficiency of the application. 
+
+By analyzing profiling data, I was able to identify slow operations and optimize them, leading to a much better performance outcome.
+   
+</details>
+
+
+# Reflections
+
 1. What is the difference between the approach of performance testing with JMeter and profiling with IntelliJ Profiler in the context of optimizing application performance?
 <br/>At first, I thought JMeter and profiling were basically the same thing, but after using them, I realized they focus on different aspects. 
 JMeter simulates multiple users interacting with the system to test how well it handles traffic, 
