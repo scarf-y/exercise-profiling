@@ -84,8 +84,8 @@
 After performing profiling and optimizing the application, I ran another performance test using JMeter. The results showed a significant improvement compared to the initial measurement:
    1. Elapsed Time: Decreased significantly, meaning requests are processed much faster.
    2. Latency: Also reduced, indicating that responses are being sent more quickly.
-   3. These improvements suggest that the optimizations effectively removed bottlenecks and improved the overall efficiency of the application. 
 
+These improvements suggest that the optimizations effectively removed bottlenecks and improved the overall efficiency of the application. 
 By analyzing profiling data, I was able to identify slow operations and optimize them, leading to a much better performance outcome.
    
 </details>
